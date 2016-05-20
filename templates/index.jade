@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    title PUSH TRANSITION SAMPLE
+    link(rel="stylesheet",type="text/css",href="application.css")
+  body
+    .container
+      h1 PUSH TRANSITION
+      .row
+        .swiper-container
+          .swiper-wrapper
+            .swiper-slide(data-page-id="jobtype", data-page-uri="")
+            .swiper-slide(data-page-id="location", data-page-uri="")
+            .swiper-slide(data-page-id="menu", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+            .swiper-slide(data-page-id="", data-page-uri="")
+      .row
+        .swiper-button-prev
+        .swiper-button-next
+    script(src="bundle.js")
